@@ -146,7 +146,7 @@ namespace WhatsApp.Models.Main
         [InverseProperty("User")]
 		#endregion Otp Annotations
 
-        public virtual ICollection<Otp> Otp { get; set; }
+        public virtual ICollection<OtpUser> Otp { get; set; }
 
 		#region Privacies Annotations
 
@@ -177,7 +177,7 @@ namespace WhatsApp.Models.Main
 			MyContacts = new HashSet<MyContact>();
 			Chats = new HashSet<Chat>();
 			Blocks = new HashSet<Block>();
-			Otp = new HashSet<Otp>();
+			Otp = new HashSet<OtpUser>();
 			Privacies = new HashSet<Privacy>();
 			ApplicationUserTokens = new HashSet<ApplicationUserToken>();
 			UserRoles = new HashSet<UserRole>();

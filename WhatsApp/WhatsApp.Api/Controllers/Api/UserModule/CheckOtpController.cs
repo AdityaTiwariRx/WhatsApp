@@ -10,10 +10,10 @@ namespace WhatsApp.Api.Controllers.UserModule
     [ApiController]
     [Route("api/[controller]")]
 	
-	public class OtpsController : BaseDomainController<OtpUser,OtpUser>
+	public class CheckOtpController : BaseDomainController<OtpUser, OtpUser>
 
     {
-        public OtpsController(IOtpDomain domain):base(domain) {}
+        public CheckOtpController(ICheckOtpDomain domain):base(domain) {}
 
     }
 }

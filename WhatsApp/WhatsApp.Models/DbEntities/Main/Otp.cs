@@ -9,7 +9,7 @@ using WhatsApp.BoundedContext.SqlContext;
 namespace WhatsApp.Models.Main
 {
     [Table("Otp",Schema="dbo")]
-    public partial class Otp
+    public partial class OtpUser
     {
 		#region OtpId Annotations
 
@@ -45,7 +45,7 @@ namespace WhatsApp.Models.Main
         public virtual User User { get; set; }
 
 
-        public Otp()
+        public OtpUser()
         {
         }
 	}

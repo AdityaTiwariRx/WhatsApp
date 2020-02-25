@@ -6209,11 +6209,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\radix\\source\\repos\\WhatsApp\\WhatsApp.Models\\WhatsApp.Models.csproj",
+      "projectUniqueName": "C:\\Users\\radix\\source\\repos\\WhatsApp2\\WhatsApp\\WhatsApp.Models\\WhatsApp.Models.csproj",
       "projectName": "WhatsApp.Models",
-      "projectPath": "C:\\Users\\radix\\source\\repos\\WhatsApp\\WhatsApp.Models\\WhatsApp.Models.csproj",
+      "projectPath": "C:\\Users\\radix\\source\\repos\\WhatsApp2\\WhatsApp\\WhatsApp.Models\\WhatsApp.Models.csproj",
       "packagesPath": "C:\\Users\\radix\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\radix\\source\\repos\\WhatsApp\\WhatsApp.Models\\obj\\",
+      "outputPath": "C:\\Users\\radix\\source\\repos\\WhatsApp2\\WhatsApp\\WhatsApp.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\radix\\AppData\\Roaming\\NuGet\\NuGet.Config",

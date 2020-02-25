@@ -2131,7 +2131,10 @@
         },
         "runtime": {
           "bin/placeholder/WhatsApp.Domain.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "WhatsApp.Infrastructure/1.0.0": {
         "type": "project",
@@ -2151,7 +2154,10 @@
         },
         "runtime": {
           "bin/placeholder/WhatsApp.Infrastructure.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "WhatsApp.Models/1.0.0": {
         "type": "project",
@@ -7215,11 +7221,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\radix\\source\\repos\\WhatsApp\\WhatsApp.Api\\WhatsApp.Api.csproj",
+      "projectUniqueName": "C:\\Users\\radix\\source\\repos\\WhatsApp2\\WhatsApp\\WhatsApp.Api\\WhatsApp.Api.csproj",
       "projectName": "WhatsApp.Api",
-      "projectPath": "C:\\Users\\radix\\source\\repos\\WhatsApp\\WhatsApp.Api\\WhatsApp.Api.csproj",
+      "projectPath": "C:\\Users\\radix\\source\\repos\\WhatsApp2\\WhatsApp\\WhatsApp.Api\\WhatsApp.Api.csproj",
       "packagesPath": "C:\\Users\\radix\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\radix\\source\\repos\\WhatsApp\\WhatsApp.Api\\obj\\",
+      "outputPath": "C:\\Users\\radix\\source\\repos\\WhatsApp2\\WhatsApp\\WhatsApp.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\radix\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7235,20 +7241,20 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\radix\\source\\repos\\WhatsApp\\WhatsApp.BoundedContext\\WhatsApp.BoundedContext.csproj": {
-              "projectPath": "C:\\Users\\radix\\source\\repos\\WhatsApp\\WhatsApp.BoundedContext\\WhatsApp.BoundedContext.csproj"
+            "C:\\Users\\radix\\source\\repos\\WhatsApp2\\WhatsApp\\WhatsApp.BoundedContext\\WhatsApp.BoundedContext.csproj": {
+              "projectPath": "C:\\Users\\radix\\source\\repos\\WhatsApp2\\WhatsApp\\WhatsApp.BoundedContext\\WhatsApp.BoundedContext.csproj"
             },
-            "C:\\Users\\radix\\source\\repos\\WhatsApp\\WhatsApp.Domain\\WhatsApp.Domain.csproj": {
-              "projectPath": "C:\\Users\\radix\\source\\repos\\WhatsApp\\WhatsApp.Domain\\WhatsApp.Domain.csproj"
+            "C:\\Users\\radix\\source\\repos\\WhatsApp2\\WhatsApp\\WhatsApp.Domain\\WhatsApp.Domain.csproj": {
+              "projectPath": "C:\\Users\\radix\\source\\repos\\WhatsApp2\\WhatsApp\\WhatsApp.Domain\\WhatsApp.Domain.csproj"
             },
-            "C:\\Users\\radix\\source\\repos\\WhatsApp\\WhatsApp.Infrastructure\\WhatsApp.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\radix\\source\\repos\\WhatsApp\\WhatsApp.Infrastructure\\WhatsApp.Infrastructure.csproj"
+            "C:\\Users\\radix\\source\\repos\\WhatsApp2\\WhatsApp\\WhatsApp.Infrastructure\\WhatsApp.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\radix\\source\\repos\\WhatsApp2\\WhatsApp\\WhatsApp.Infrastructure\\WhatsApp.Infrastructure.csproj"
             },
-            "C:\\Users\\radix\\source\\repos\\WhatsApp\\WhatsApp.Models\\WhatsApp.Models.csproj": {
-              "projectPath": "C:\\Users\\radix\\source\\repos\\WhatsApp\\WhatsApp.Models\\WhatsApp.Models.csproj"
+            "C:\\Users\\radix\\source\\repos\\WhatsApp2\\WhatsApp\\WhatsApp.Models\\WhatsApp.Models.csproj": {
+              "projectPath": "C:\\Users\\radix\\source\\repos\\WhatsApp2\\WhatsApp\\WhatsApp.Models\\WhatsApp.Models.csproj"
             },
-            "C:\\Users\\radix\\source\\repos\\WhatsApp\\WhatsApp.UnitOfWork\\WhatsApp.UnitOfWork.csproj": {
-              "projectPath": "C:\\Users\\radix\\source\\repos\\WhatsApp\\WhatsApp.UnitOfWork\\WhatsApp.UnitOfWork.csproj"
+            "C:\\Users\\radix\\source\\repos\\WhatsApp2\\WhatsApp\\WhatsApp.UnitOfWork\\WhatsApp.UnitOfWork.csproj": {
+              "projectPath": "C:\\Users\\radix\\source\\repos\\WhatsApp2\\WhatsApp\\WhatsApp.UnitOfWork\\WhatsApp.UnitOfWork.csproj"
             }
           }
         }

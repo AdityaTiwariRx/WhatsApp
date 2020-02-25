@@ -47,7 +47,13 @@ namespace WhatsApp.Api.Bootstrap
             serviceCollection.AddScoped<IUserDomain, UserDomain>();
             
             serviceCollection.AddScoped<IOtpDomain, OtpDomain>();
+            
+            serviceCollection.AddScoped<ICheckOtpDomain, CheckOtpDomain>();
+            
+            serviceCollection.AddScoped<IUserDetailDomain, UserDetailDomain>();
             #endregion DomainService
+
+
 
 
         }

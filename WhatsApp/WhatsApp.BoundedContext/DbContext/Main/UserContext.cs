@@ -19,7 +19,7 @@ namespace WhatsApp.BoundedContext.Main
             		public DbSet<User> User { get; set; }
 		public DbSet<UserDetail> UserDetail { get; set; }
 		public DbSet<Country> Country { get; set; }
-		public DbSet<Otp> Otp { get; set; }
+		public DbSet<OtpUser> Otp { get; set; }
             #endregion DbSets
 
 
