@@ -11,9 +11,9 @@ using RxWeb.Core.Data.BoundedContext;
 
 namespace WhatsApp.BoundedContext.Main
 {
-    public class SettingContext : BaseBoundedContext, ISettingContext
+    public class StatusContext : BaseBoundedContext, IStatusContext
     {
-        public SettingContext(MainSqlDbContext sqlDbContext,  IOptions<DatabaseConfig> databaseConfig, IHttpContextAccessor contextAccessor,ITenantDbConnectionInfo tenantDbConnection): base(sqlDbContext, databaseConfig.Value, contextAccessor,tenantDbConnection){ }
+        public StatusContext(MainSqlDbContext sqlDbContext,  IOptions<DatabaseConfig> databaseConfig, IHttpContextAccessor contextAccessor,ITenantDbConnectionInfo tenantDbConnection): base(sqlDbContext, databaseConfig.Value, contextAccessor,tenantDbConnection){ }
 
             #region DbSets
             #endregion DbSets
@@ -21,7 +21,7 @@ namespace WhatsApp.BoundedContext.Main
     }
 
 
-    public interface ISettingContext : IDbContext
+    public interface IStatusContext : IDbContext
     {
     }
 }

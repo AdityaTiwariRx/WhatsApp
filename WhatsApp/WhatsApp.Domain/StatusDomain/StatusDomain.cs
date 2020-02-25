@@ -5,62 +5,61 @@ using RxWeb.Core;
 using WhatsApp.UnitOfWork.Main;
 using WhatsApp.Models.Main;
 
-namespace WhatsApp.Domain.SettingModule
+namespace WhatsApp.Domain.StatusModule
 {
-    public class PrivacyDomain : IPrivacyDomain
+    public class StatusDomain : IStatusDomain
     {
-        public PrivacyDomain(ISettingUow uow) {
+        public StatusDomain(IStatusUow uow) {
             this.Uow = uow;
         }
 
-        public async Task<object> GetAsync( Privacy entity)
+        public Task<object> GetAsync( parameters)
         {
-            return await Uow.Repository<Privacy>().AllAsync();
             throw new NotImplementedException();
         }
 
-        public Task<object> GetBy( Privacy entity)
+        public Task<object> GetBy( parameters)
         {
             throw new NotImplementedException();
         }
         
 
-        public HashSet<string> AddValidation(Privacy entity)
+        public HashSet<string> AddValidation(Status entity)
         {
             return ValidationMessages;
         }
 
-        public async Task AddAsync(Privacy entity)
+        public async Task AddAsync(Status entity)
         {
             await Uow.RegisterNewAsync(entity);
             await Uow.CommitAsync();
         }
 
-        public HashSet<string> UpdateValidation(Privacy entity)
+        public HashSet<string> UpdateValidation(Status entity)
         {
             return ValidationMessages;
         }
 
-        public async Task UpdateAsync(Privacy entity)
+        public async Task UpdateAsync(Status entity)
         {
             await Uow.RegisterDirtyAsync(entity);
             await Uow.CommitAsync();
         }
 
-        public HashSet<string> DeleteValidation( Privacy entity)
+        public HashSet<string> DeleteValidation(Status parameters)
         {
             return ValidationMessages;
         }
 
-        public Task DeleteAsync( Privacy entity)
+        public Task DeleteAsync(Status parameters)
         {
             throw new NotImplementedException();
         }
 
-        public ISettingUow Uow { get; set; }
+        public IStatusUow Uow { get; set; }
 
         private HashSet<string> ValidationMessages { get; set; } = new HashSet<string>();
     }
 
-    public interface IPrivacyDomain : ICoreDomain<Privacy,Privacy> { }
+    public interface IStatusDomain : ICoreDomain<Status,> { }
 }

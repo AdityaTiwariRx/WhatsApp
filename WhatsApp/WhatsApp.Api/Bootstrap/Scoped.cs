@@ -9,7 +9,9 @@ using WhatsApp.UnitOfWork.DbEntityAudit;
 using WhatsApp.BoundedContext.Main;
 using WhatsApp.UnitOfWork.Main;
 using WhatsApp.Domain.UserModule;
+            using WhatsApp.Domain.StatusModule;
             #endregion Namespace
+
 
 
 
@@ -35,7 +37,10 @@ namespace WhatsApp.Api.Bootstrap
                         serviceCollection.AddScoped<IUserContext, UserContext>();
             serviceCollection.AddScoped<IUserUow, UserUow>();
                        
+                        serviceCollection.AddScoped<IStatusContext, StatusContext>();
+            serviceCollection.AddScoped<IStatusUow, StatusUow>();
             #endregion ContextService
+
 
 
 
@@ -47,7 +52,10 @@ namespace WhatsApp.Api.Bootstrap
             serviceCollection.AddScoped<IUserDomain, UserDomain>();
             
             serviceCollection.AddScoped<IOtpDomain, OtpDomain>();
+            
+            serviceCollection.AddScoped<IStatusDomain, StatusDomain>();
             #endregion DomainService
+
 
 
         }
