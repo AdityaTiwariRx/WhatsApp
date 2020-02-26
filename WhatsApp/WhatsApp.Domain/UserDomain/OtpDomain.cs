@@ -13,12 +13,12 @@ namespace WhatsApp.Domain.UserModule
             this.Uow = uow;
         }
 
-        public Task<object> GetAsync( parameters)
+        public Task<object> GetAsync(Otp parameters)
         {
             throw new NotImplementedException();
         }
 
-        public Task<object> GetBy( parameters)
+        public Task<object> GetBy(Otp parameters)
         {
             throw new NotImplementedException();
         }
@@ -46,12 +46,12 @@ namespace WhatsApp.Domain.UserModule
             await Uow.CommitAsync();
         }
 
-        public HashSet<string> DeleteValidation( parameters)
+        public HashSet<string> DeleteValidation(Otp parameters)
         {
             return ValidationMessages;
         }
 
-        public Task DeleteAsync( parameters)
+        public Task DeleteAsync(Otp parameters)
         {
             throw new NotImplementedException();
         }
@@ -61,5 +61,5 @@ namespace WhatsApp.Domain.UserModule
         private HashSet<string> ValidationMessages { get; set; } = new HashSet<string>();
     }
 
-    public interface IOtpDomain : ICoreDomain<Otp,> { }
+    public interface IOtpDomain : ICoreDomain<Otp, Otp> { }
 }

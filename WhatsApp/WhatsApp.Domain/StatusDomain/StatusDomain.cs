@@ -13,12 +13,12 @@ namespace WhatsApp.Domain.StatusModule
             this.Uow = uow;
         }
 
-        public Task<object> GetAsync( parameters)
+        public Task<object> GetAsync(Status entity)
         {
             throw new NotImplementedException();
         }
 
-        public Task<object> GetBy( parameters)
+        public Task<object> GetBy(Status entity)
         {
             throw new NotImplementedException();
         }
@@ -46,12 +46,12 @@ namespace WhatsApp.Domain.StatusModule
             await Uow.CommitAsync();
         }
 
-        public HashSet<string> DeleteValidation(Status parameters)
+        public HashSet<string> DeleteValidation(Status entity)
         {
             return ValidationMessages;
         }
 
-        public Task DeleteAsync(Status parameters)
+        public Task DeleteAsync(Status entity)
         {
             throw new NotImplementedException();
         }
@@ -61,5 +61,5 @@ namespace WhatsApp.Domain.StatusModule
         private HashSet<string> ValidationMessages { get; set; } = new HashSet<string>();
     }
 
-    public interface IStatusDomain : ICoreDomain<Status,> { }
+    public interface IStatusDomain : ICoreDomain<Status,Status> { }
 }

@@ -47,10 +47,10 @@ namespace WhatsApp.Models.Main
 		#region MyContact Annotations
 
         [ForeignKey(nameof(MyContactId))]
-        [InverseProperty(nameof(WhatsApp.Models.Main.MyContact.SeenStatus))]
+        [InverseProperty(nameof(WhatsApp.Models.Main.MyContacts.SeenStatus))]
 		#endregion MyContact Annotations
 
-        public virtual MyContact MyContact { get; set; }
+        public virtual MyContacts MyContact { get; set; }
 
 		#region Status Annotations
 

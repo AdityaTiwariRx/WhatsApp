@@ -125,7 +125,7 @@ namespace WhatsApp.Models.Main
         [InverseProperty("User")]
 		#endregion MyContacts Annotations
 
-        public virtual ICollection<MyContact> MyContacts { get; set; }
+        public virtual ICollection<MyContacts> MyContacts { get; set; }
 
 		#region Chats Annotations
 
@@ -174,7 +174,7 @@ namespace WhatsApp.Models.Main
         {
 			Status = new HashSet<Status>();
 			UserDetails = new HashSet<UserDetail>();
-			MyContacts = new HashSet<MyContact>();
+			MyContacts = new HashSet<MyContacts>();
 			Chats = new HashSet<Chat>();
 			Blocks = new HashSet<Block>();
 			Otp = new HashSet<Otp>();

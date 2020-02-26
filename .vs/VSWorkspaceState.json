@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\WhatsApp",
+    "\\WhatsApp\\WhatsApp.BoundedContext",
+    "\\WhatsApp\\WhatsApp.BoundedContext\\DbContext",
+    "\\WhatsApp\\WhatsApp.BoundedContext\\DbContext\\Main",
+    "\\WhatsApp\\WhatsApp.Domain",
+    "\\WhatsApp\\WhatsApp.Domain\\SettingDomain",
+    "\\WhatsApp\\WhatsApp.Infrastructure",
+    "\\WhatsApp\\WhatsApp.UnitOfWork",
+    "\\WhatsApp\\WhatsApp.UnitOfWork\\Main"
+  ],
+  "SelectedNode": "\\WhatsApp\\WhatsApp.Api\\Bootstrap\\Scoped.cs",
+  "PreviewInSolutionExplorer": false
+}

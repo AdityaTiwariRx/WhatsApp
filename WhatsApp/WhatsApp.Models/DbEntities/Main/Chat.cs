@@ -40,10 +40,10 @@ namespace WhatsApp.Models.Main
 		#region MyContact Annotations
 
         [ForeignKey(nameof(MyContactId))]
-        [InverseProperty(nameof(WhatsApp.Models.Main.MyContact.Chats))]
+        [InverseProperty(nameof(WhatsApp.Models.Main.MyContacts.Chats))]
 		#endregion MyContact Annotations
 
-        public virtual MyContact MyContact { get; set; }
+        public virtual MyContacts MyContact { get; set; }
 
 		#region User Annotations
 

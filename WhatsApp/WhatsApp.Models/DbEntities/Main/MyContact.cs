@@ -9,7 +9,7 @@ using WhatsApp.BoundedContext.SqlContext;
 namespace WhatsApp.Models.Main
 {
     [Table("MyContacts",Schema="dbo")]
-    public partial class MyContact
+    public partial class MyContacts
     {
 		#region MyContactId Annotations
 
@@ -81,7 +81,7 @@ namespace WhatsApp.Models.Main
         public virtual ICollection<SeenStatu> SeenStatus { get; set; }
 
 
-        public MyContact()
+        public MyContacts()
         {
 			Chats = new HashSet<Chat>();
 			Blocks = new HashSet<Block>();

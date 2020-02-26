@@ -40,10 +40,10 @@ namespace WhatsApp.Models.Main
 		#region MyContact Annotations
 
         [ForeignKey(nameof(BlockedUserId))]
-        [InverseProperty(nameof(WhatsApp.Models.Main.MyContact.Blocks))]
+        [InverseProperty(nameof(WhatsApp.Models.Main.MyContacts.Blocks))]
 		#endregion MyContact Annotations
 
-        public virtual MyContact MyContact { get; set; }
+        public virtual MyContacts MyContact { get; set; }
 
 		#region User Annotations
 

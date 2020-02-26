@@ -6,3 +6,11 @@ C:\Users\radix\source\repos\WhatsApp\WhatsApp.Models\obj\Debug\netcoreapp3.1\Wha
 C:\Users\radix\source\repos\WhatsApp\WhatsApp.Models\obj\Debug\netcoreapp3.1\WhatsApp.Models.AssemblyInfo.cs
 C:\Users\radix\source\repos\WhatsApp\WhatsApp.Models\obj\Debug\netcoreapp3.1\WhatsApp.Models.dll
 C:\Users\radix\source\repos\WhatsApp\WhatsApp.Models\obj\Debug\netcoreapp3.1\WhatsApp.Models.pdb
+C:\Users\radix\Source\Repos\WhatsApp2\WhatsApp\WhatsApp.Models\bin\Debug\netcoreapp3.1\WhatsApp.Models.deps.json
+C:\Users\radix\Source\Repos\WhatsApp2\WhatsApp\WhatsApp.Models\bin\Debug\netcoreapp3.1\WhatsApp.Models.dll
+C:\Users\radix\Source\Repos\WhatsApp2\WhatsApp\WhatsApp.Models\bin\Debug\netcoreapp3.1\WhatsApp.Models.pdb
+C:\Users\radix\Source\Repos\WhatsApp2\WhatsApp\WhatsApp.Models\obj\Debug\netcoreapp3.1\WhatsApp.Models.csprojAssemblyReference.cache
+C:\Users\radix\Source\Repos\WhatsApp2\WhatsApp\WhatsApp.Models\obj\Debug\netcoreapp3.1\WhatsApp.Models.AssemblyInfoInputs.cache
+C:\Users\radix\Source\Repos\WhatsApp2\WhatsApp\WhatsApp.Models\obj\Debug\netcoreapp3.1\WhatsApp.Models.AssemblyInfo.cs
+C:\Users\radix\Source\Repos\WhatsApp2\WhatsApp\WhatsApp.Models\obj\Debug\netcoreapp3.1\WhatsApp.Models.dll
+C:\Users\radix\Source\Repos\WhatsApp2\WhatsApp\WhatsApp.Models\obj\Debug\netcoreapp3.1\WhatsApp.Models.pdb

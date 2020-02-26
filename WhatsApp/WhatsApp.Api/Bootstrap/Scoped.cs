@@ -36,9 +36,11 @@ namespace WhatsApp.Api.Bootstrap
             serviceCollection.AddScoped<ILoginUow, LoginUow>();
                         serviceCollection.AddScoped<IUserContext, UserContext>();
             serviceCollection.AddScoped<IUserUow, UserUow>();
+            
+
                        
-                        serviceCollection.AddScoped<IStatusContext, StatusContext>();
-            serviceCollection.AddScoped<IStatusUow, StatusUow>();
+            //serviceCollection.AddScoped<IStatusContext, StatusContext>();
+            //serviceCollection.AddScoped<IStatusUow, StatusUow>();
             #endregion ContextService
 
 
@@ -53,9 +55,7 @@ namespace WhatsApp.Api.Bootstrap
             
             serviceCollection.AddScoped<IOtpDomain, OtpDomain>();
             
-            serviceCollection.AddScoped<IStatusDomain, StatusDomain>();
             #endregion DomainService
-
 
 
         }

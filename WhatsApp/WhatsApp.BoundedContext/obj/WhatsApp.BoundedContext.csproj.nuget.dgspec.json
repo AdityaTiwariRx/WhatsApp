@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\radix\\source\\repos\\WhatsApp\\WhatsApp.BoundedContext\\WhatsApp.BoundedContext.csproj": {}
+    "C:\\Users\\radix\\source\\repos\\WhatsApp2\\WhatsApp\\WhatsApp.BoundedContext\\WhatsApp.BoundedContext.csproj": {}
   },
   "projects": {
-    "C:\\Users\\radix\\source\\repos\\WhatsApp\\WhatsApp.BoundedContext\\WhatsApp.BoundedContext.csproj": {
+    "C:\\Users\\radix\\source\\repos\\WhatsApp2\\WhatsApp\\WhatsApp.BoundedContext\\WhatsApp.BoundedContext.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\radix\\source\\repos\\WhatsApp\\WhatsApp.BoundedContext\\WhatsApp.BoundedContext.csproj",
+        "projectUniqueName": "C:\\Users\\radix\\source\\repos\\WhatsApp2\\WhatsApp\\WhatsApp.BoundedContext\\WhatsApp.BoundedContext.csproj",
         "projectName": "WhatsApp.BoundedContext",
-        "projectPath": "C:\\Users\\radix\\source\\repos\\WhatsApp\\WhatsApp.BoundedContext\\WhatsApp.BoundedContext.csproj",
+        "projectPath": "C:\\Users\\radix\\source\\repos\\WhatsApp2\\WhatsApp\\WhatsApp.BoundedContext\\WhatsApp.BoundedContext.csproj",
         "packagesPath": "C:\\Users\\radix\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\radix\\source\\repos\\WhatsApp\\WhatsApp.BoundedContext\\obj\\",
+        "outputPath": "C:\\Users\\radix\\source\\repos\\WhatsApp2\\WhatsApp\\WhatsApp.BoundedContext\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\radix\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\radix\\source\\repos\\WhatsApp\\WhatsApp.Models\\WhatsApp.Models.csproj": {
-                "projectPath": "C:\\Users\\radix\\source\\repos\\WhatsApp\\WhatsApp.Models\\WhatsApp.Models.csproj"
+              "C:\\Users\\radix\\source\\repos\\WhatsApp2\\WhatsApp\\WhatsApp.Models\\WhatsApp.Models.csproj": {
+                "projectPath": "C:\\Users\\radix\\source\\repos\\WhatsApp2\\WhatsApp\\WhatsApp.Models\\WhatsApp.Models.csproj"
               }
             }
           }
@@ -70,18 +70,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\radix\\source\\repos\\WhatsApp\\WhatsApp.Models\\WhatsApp.Models.csproj": {
+    "C:\\Users\\radix\\source\\repos\\WhatsApp2\\WhatsApp\\WhatsApp.Models\\WhatsApp.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\radix\\source\\repos\\WhatsApp\\WhatsApp.Models\\WhatsApp.Models.csproj",
+        "projectUniqueName": "C:\\Users\\radix\\source\\repos\\WhatsApp2\\WhatsApp\\WhatsApp.Models\\WhatsApp.Models.csproj",
         "projectName": "WhatsApp.Models",
-        "projectPath": "C:\\Users\\radix\\source\\repos\\WhatsApp\\WhatsApp.Models\\WhatsApp.Models.csproj",
+        "projectPath": "C:\\Users\\radix\\source\\repos\\WhatsApp2\\WhatsApp\\WhatsApp.Models\\WhatsApp.Models.csproj",
         "packagesPath": "C:\\Users\\radix\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\radix\\source\\repos\\WhatsApp\\WhatsApp.Models\\obj\\",
+        "outputPath": "C:\\Users\\radix\\source\\repos\\WhatsApp2\\WhatsApp\\WhatsApp.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\radix\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -140,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
